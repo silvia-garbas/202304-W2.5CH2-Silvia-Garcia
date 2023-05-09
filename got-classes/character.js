@@ -4,7 +4,7 @@ export class Character {
   family;
   age;
   status;
-  tvShow;
+ 
 
   constructor(name, family, age, status) {
     this.tvShow = "GOT";

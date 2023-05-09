@@ -2,15 +2,15 @@ export class Character {
   name;
   family;
   age;
-  alive;
+  status;
   tvShow;
 
-  constructor(name, family, age, alive,tvShow) {
+  constructor(name, family, age, status) {
     this.name = name;
     this.family = family;
     this.age = age;
-    this.alive = true;
-    this.tvShow = tvShow;
+    this.status = status;
+    this.tvShow = "GOT";
   }
   
 

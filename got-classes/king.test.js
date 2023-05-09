@@ -1,19 +1,12 @@
-import { King } from "./king.js";
+import { Character } from "./character.js";
 
+export class King extends Character {
+  yearsOfReign;
+  speech;
 
-describe("Given a King class", () => {
-  describe("When we intantiate it", () => {
-    test("it should have a object with the properties of the Class", () => {
-      const character = new Character('name', 'family', 'age', 'alive','yearsOfReign'); 
-
-      expect(character).toHaveProperty("name", "name"); 
-      expect(character).toHaveProperty("family", "family");
-      expect(character).toHaveProperty("age", "age");
-      expect(character).toHaveProperty("alive", true);
-      expect(character).toHaveProperty("yearsOfReign", "yearsOfReigns")
-
-    });
-  });
-});
-
-
+  constructor(name, family, age, alive, yearsOfReign, speech) {
+    super(name, family, age, alive);
+    this.reign = yearsOfReign;
+    this.speech = "Vais a morir todos";
+  }
+}

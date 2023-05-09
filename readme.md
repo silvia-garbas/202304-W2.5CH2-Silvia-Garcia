@@ -17,3 +17,18 @@ Un rey, además de la información que tiene por ser personaje, tiene la siguien
 Un luchador, además de la información que tiene por ser personaje, tiene la siguiente información: · Arma que usa · Destreza (un valor entre 0 y 10) · Cuando se comunica dice: "Primero pego y luego pregunto"
 
 Un asesor, además de la información que tiene por ser personaje, tiene la siguiente información: · Personaje al que asesora (que puede ser rey, luchador, asesor o escudero) · Cuando se comunica dice: "No sé por qué, pero creo que voy a morir pronto"
+
+Un escudero, además de la información que tiene por ser personaje, tiene la siguiente información: · Personaje al que sirve (que sólo puede ser luchador) · Grado de pelotismo (un valor entre 0 y 10) · Cuando se comunica dice: "Soy un loser"
+
+Testea todo.
+
+Una vez hecha toda la estructura, crea a Joffrey Baratheon (rey), Jaime Lannister (luchador), a Daenerys Targaryen (luchadora), a Tyrion Lannister (asesor de Daenerys) y a Bronn (escudero de Jaime).
+
+Crea un array con todos los personajes.
+Haz una función que tenga como entrada dicho array y devuelva un array con los mensajes que comunican los luchadores.
+
+Imprime por consola el nombre de la serie a la que pertenecen los personajes.
+
+Recorre el array de mensajes e imprímelos por consola.
+
+Mata a Jaime y a Tyrion.

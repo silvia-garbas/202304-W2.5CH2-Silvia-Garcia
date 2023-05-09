@@ -5,5 +5,6 @@ export class King extends Character {
     super(name, family, age, status);
     this.speech = "Vais a morir todos";
     this.yearsOfReign = yearsOfReign;
+
   }
 }

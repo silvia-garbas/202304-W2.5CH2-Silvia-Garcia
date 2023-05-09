@@ -10,7 +10,6 @@ export class Character {
     this.family = family;
     this.age = age;
     this.status = status;
-
     this.tvShow = "GOT";
 
   }

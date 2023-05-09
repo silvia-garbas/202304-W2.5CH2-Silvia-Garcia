@@ -1,0 +1,12 @@
+{
+  "name": "challenge-2",
+  "version": "1.0.0",
+  "description": "clases GOT\r Tendrás que crear en JS una estructura de clases que refleje el siguiente modelo de datos:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

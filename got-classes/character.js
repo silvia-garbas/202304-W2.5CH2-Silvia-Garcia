@@ -6,8 +6,9 @@ export class Character {
   status;
  
 
+
   constructor(name, family, age, status) {
-    this.tvShow = "GOT";
+    // this.tvShow = "GOT";
     this.name = name;
     this.family = family;
     this.age = age;
@@ -15,3 +16,4 @@ export class Character {
   
   }
 }
+
